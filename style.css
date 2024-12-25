@@ -1,6 +1,18 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.first-part {
+  background-color: #1f2937;
+  padding: 0 100px;
+}
+
 header {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
+  color: #f9faf8;
+  margin-bottom: 50px;
 }
 
 header h1 {
@@ -17,4 +29,33 @@ a {
   text-decoration: none;
   color: #e5e7eb;
   font-size: 18px;
+}
+
+.hero-text {
+  display: flex;
+  justify-content: space-between;
+  color: #f9faf8;
+}
+
+button {
+  background-color: #3882f6;
+  color: #f9faf8; 
+}
+
+.second-part {
+  height: 200px;
+  width: 200px;
+  background-color: #fff;
+  margin: 50px 100px;
+}
+
+.box-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.box {
+  border: 2px #3882f6;
+  height: 250px;
+  width: 250px;
 }
